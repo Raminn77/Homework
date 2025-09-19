@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 body{
     margin: 0;
     padding: 0;
@@ -18,6 +20,12 @@ body{
     padding-right: 80px;
     gap: 56px;
 }   
+
+.signin{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
 
 .header-links{
     display: flex; 
@@ -53,4 +61,125 @@ nav{
 .container{
     display: flex;
     gap: 12px;
+}
+
+.container-2-btn{
+    align-items: center;
+    display: flex;
+    gap: 40px;
+}
+
+.btn-1{
+    width: 160px;
+    height: 56px;
+    border: 1px;
+    border-radius: 4px;
+    background-color: #4328EB;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px 16px 32px;
+}
+
+.btn-1 a{
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.link{
+    text-decoration: none;
+    color: #4328EB;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.container-2{
+    width: 846px;
+    height: 304px;
+    margin-top: 44px;
+    margin-left: 297px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 0;
+}
+
+.container-2-text h1{
+    font-weight: 600;
+    width: 846px;
+    height: 144px;
+    font-size: 64px;
+    margin: 0;
+    padding-bottom: 24px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.container-2-text p{
+    font-size: 18px;
+    font-weight: 400;
+    width: 846px;
+    height: 56px;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: #36485C;
+}
+
+.img-layers{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 100px;
+
+}
+
+.overview-desktop{
+    position: absolute;
+    left: 144.7px;
+    top: 44px;
+    z-index: 2;
+    width: 957.33px;
+    height: 680.47px;
+    border-radius: 16px;
+}
+
+.overview-mobile{
+    position: absolute;
+    width: 271.47px;
+    height: 585.19px;
+    z-index: 3;
+    top: 197px;
+    right: 227px;
+    border-radius: 16px; 
+}
+
+.blur-bg{
+    position: relative;
+    top: 300px;
+    object-fit: cover;
+    width: 100%;
+    height: 700px;
+    filter: blur(15px);
+    transform: scale(1);
+}
+
+.companies-logo{
+    position: relative;
+    top: 900px;
+    left: 80px;
+    width: 1280px;
+    height: 64px;
+    z-index: 4;
 }
