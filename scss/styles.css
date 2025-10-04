@@ -1,11 +1,15 @@
 .main-section__paragraph,
 .header-right__link,
 .feature__paragraph-second,
+.feature-2__paragraph-second,
 .feature__list-item,
 .feature-2__list-item,
 .feature-3__list-item,
 .testimonials__paragraph,
-.header__nav-link {
+.header__nav-link,
+.faq__paragraph-second,
+.plans__paragraph,
+.feature-3__paragraph-second {
   color: #36485C;
 }
 
@@ -17,6 +21,118 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   margin: 0;
   padding: 0;
   font-family: "MyFont", sans-serif;
+}
+
+.main-section .main-section__title {
+  font-size: 64px;
+  font-weight: 600;
+  color: #172026;
+  text-align: center;
+  margin: 0;
+  line-height: 72px;
+}
+.main-section .main-section__paragraph {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  line-height: 28px;
+}
+
+.feature .feature__title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #0085FF;
+}
+.feature .feature__paragraph {
+  font-size: 42px;
+  font-weight: 500;
+  color: #172026;
+}
+.feature .feature__paragraph-second {
+  font-size: 18px;
+  font-weight: 400;
+}
+.feature .feature__list-item {
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  gap: 16px;
+}
+
+.feature-2 .feature-2__title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #00A424;
+}
+.feature-2 .feature-2__paragraph {
+  font-size: 42px;
+  font-weight: 500;
+  color: #172026;
+}
+.feature-2 .feature-2__paragraph-second {
+  font-size: 18px;
+  font-weight: 400;
+}
+.feature-2 .feature-2__list-item {
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  gap: 16px;
+}
+
+.feature-3 .feature-3__title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #EB2891;
+}
+.feature-3 .feature-3__paragraph {
+  font-size: 42px;
+  font-weight: 500;
+  color: #172026;
+}
+.feature-3 .feature-3__paragraph-second {
+  font-size: 18px;
+  font-weight: 400;
+}
+.feature-3 .feature-3__list-item {
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  gap: 16px;
+}
+
+.testimonials .testimonials__text {
+  font-size: 42px;
+  font-weight: 500;
+  color: #172026;
+}
+.testimonials .testimonials__paragraph {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.faq .faq__text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #EB2891;
+}
+.faq .faq__paragraph {
+  font-size: 42px;
+  font-weight: 500;
+  color: #172026;
+}
+
+.plans .plans__title {
+  font-weight: 500;
+  font-size: 42px;
+}
+
+.free-trial__heading .free-trial__text {
+  color: #4328EB;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
 }
 
 .header-section {
@@ -74,23 +190,6 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   gap: 24px;
   width: 846px;
   margin-top: 24px;
-}
-.main-section .main-section__title {
-  display: flex;
-  align-items: center;
-  font-size: 64px;
-  font-weight: 600;
-  color: #172026;
-  text-align: center;
-  margin: 0;
-  line-height: 72px;
-}
-.main-section .main-section__paragraph {
-  font-size: 18px;
-  font-weight: 400;
-  text-align: center;
-  margin: 0;
-  line-height: 28px;
 }
 .main-section .main-section__links {
   display: flex;
@@ -174,31 +273,11 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   flex-direction: column;
   width: 572px;
 }
-.feature .feature__title {
-  font-size: 18px;
-  font-weight: 500;
-  color: #0085FF;
-}
-.feature .feature__paragraph {
-  font-size: 42px;
-  font-weight: 500;
-  color: #172026;
-}
-.feature .feature__paragraph-second {
-  font-size: 18px;
-  font-weight: 400;
-}
 .feature .feature__list {
   display: flex;
   flex-direction: column;
   gap: 20px;
   list-style: none;
-}
-.feature .feature__list-item {
-  font-size: 18px;
-  font-weight: 400;
-  display: flex;
-  gap: 16px;
 }
 .feature .feature__button {
   display: flex;
@@ -236,32 +315,11 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   flex-direction: column;
   width: 572px;
 }
-.feature-2 .feature-2__title {
-  font-size: 18px;
-  font-weight: 500;
-  color: #00A424;
-}
-.feature-2 .feature-2__paragraph {
-  font-size: 42px;
-  font-weight: 500;
-  color: #172026;
-}
-.feature-2 .feature-2__paragraph-second {
-  font-size: 18px;
-  font-weight: 400;
-  color: #36485C;
-}
 .feature-2 .feature-2__list {
   display: flex;
   flex-direction: column;
   gap: 20px;
   list-style: none;
-}
-.feature-2 .feature-2__list-item {
-  font-size: 18px;
-  font-weight: 400;
-  display: flex;
-  gap: 16px;
 }
 .feature-2 .feature-2__button {
   display: flex;
@@ -299,30 +357,11 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   flex-direction: column;
   width: 572px;
 }
-.feature-3 .feature-3__title {
-  font-size: 18px;
-  font-weight: 500;
-  color: #EB2891;
-}
-.feature-3 .feature-3__paragraph {
-  font-size: 42px;
-  font-weight: 500;
-  color: #172026;
-}
-.feature-3 .feature-3__paragraph-second {
-  font-size: 18px;
-  font-weight: 400;
-  color: #36485C;
-}
 .feature-3 .feature-3__list {
   display: flex;
   flex-direction: column;
   gap: 20px;
   list-style: none;
-}
-.feature-3 .feature-3__list-item {
-  font-size: 18px;
-  font-weight: 400;
 }
 .feature-3 .feature-3__button {
   display: flex;
@@ -356,15 +395,6 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   width: 680px;
   gap: 16px;
 }
-.testimonials .testimonials__text {
-  font-size: 42px;
-  font-weight: 500;
-  color: #172026;
-}
-.testimonials .testimonials__paragraph {
-  font-size: 18px;
-  font-weight: 400;
-}
 .testimonials .testimonials__cards {
   display: flex;
   flex-wrap: wrap;
@@ -376,29 +406,20 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-top: 120px;
+  padding: 120px 80px 60px 80px;
 }
-
-.faq__content {
+.faq .faq__content {
   display: flex;
   flex-direction: column;
   gap: 16px;
   width: 519px;
 }
-
-.faq__text {
-  font-size: 16px;
-  font-weight: 500;
-  color: #EB2891;
+.faq .faq__question {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
-
-.faq__paragraph {
-  font-size: 42px;
-  font-weight: 500;
-  color: #172026;
-}
-
-.question-1 {
+.faq .question-1 {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -406,4 +427,70 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   border-radius: 8px;
   padding: 24px;
   background-color: #E3F1FF;
+}
+.faq .question {
+  border-radius: 8px;
+  padding: 24px;
+  background-color: #E3F1FF;
+}
+
+.plans {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  padding: 60px 80px 120px 80px;
+}
+.plans .plans__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 628px;
+}
+.plans .plans__prices {
+  display: flex;
+  gap: 24px;
+}
+.plans .plans__prices .free-trial {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 24px 24px;
+  width: 411px;
+  height: 490px;
+  border: 1px none;
+  border-radius: 8px;
+  background-color: #F5F4FF;
+}
+.plans .plans__prices .free-trial .free-trial__heading {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.plans .plans__prices .free-trial .free-trial__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+}
+.plans .plans__prices .free-trial .free-trial__list-item {
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  gap: 16px;
+}
+.plans .plans__prices .business {
+  width: 411px;
+  height: 490px;
+  border: 1px none;
+  border-radius: 8px;
+  background-color: #4328EB;
+}
+.plans .plans__prices .enterprise {
+  width: 411px;
+  height: 490px;
+  border: 1px none;
+  border-radius: 8px;
+  background-color: #F5F4FF;
 }/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,160 @@
+@font-face{
+    font-family: 'MyFont';
+    src: url("fonts/Inter_24pt-Medium.ttf") format("truetype");
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+    font-family: "MyFont", sans-serif;
+}
+
+
+.main-section{
+
+    .main-section__title{
+    font-size: 64px;
+    font-weight: 600;
+    color: #172026;
+    text-align: center;
+    margin: 0;
+    line-height: 72px;
+    }
+
+    .main-section__paragraph{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    line-height: 28px;
+    }
+}
+
+.feature{
+
+    .feature__title{
+    font-size: 18px;
+    font-weight: 500;
+    color: #0085FF;
+    }
+
+    .feature__paragraph{
+    font-size: 42px;
+    font-weight: 500;
+    color: #172026;
+    }
+
+    .feature__paragraph-second{
+    font-size: 18px;
+    font-weight: 400;
+    }
+
+    .feature__list-item{
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    gap: 16px;
+    }
+}
+
+.feature-2{
+    .feature-2__title{
+    font-size: 18px;
+    font-weight: 500;
+    color: #00A424;
+    }
+
+    .feature-2__paragraph{
+    font-size: 42px;
+    font-weight: 500;
+    color: #172026;
+    }
+
+    .feature-2__paragraph-second{
+    font-size: 18px;
+    font-weight: 400;
+    }
+
+    .feature-2__list-item{
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    gap: 16px;
+    }    
+}
+
+.feature-3{
+
+    .feature-3__title{
+    font-size: 18px;
+    font-weight: 500;
+    color: #EB2891;
+    }
+
+    .feature-3__paragraph{
+    font-size: 42px;
+    font-weight: 500;
+    color: #172026;
+    }
+
+    .feature-3__paragraph-second{
+    font-size: 18px;
+    font-weight: 400;
+    }
+
+    .feature-3__list-item{
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    gap: 16px;
+    }
+}
+
+.testimonials{
+
+    .testimonials__text{
+    font-size: 42px;
+    font-weight: 500;
+    color: #172026;
+    }
+
+    .testimonials__paragraph{
+    font-size: 18px;
+    font-weight: 400;
+    }
+}
+
+.faq{
+
+    .faq__text{
+    font-size: 16px;
+    font-weight: 500;
+    color: #EB2891;
+    }
+
+    .faq__paragraph{
+    font-size: 42px;
+    font-weight: 500;
+    color: #172026;
+    }
+}
+
+.plans{
+
+    .plans__title{
+    font-weight: 500;
+    font-size: 42px;
+    }
+
+}
+
+.free-trial__heading{
+
+    .free-trial__text{
+    color: #4328EB;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    }
+                
+ }
