@@ -1,11 +1,15 @@
 @import './colors';
 @import './global';
+@import './media';
 
 .header-section{
     display: flex;
-    align-items: center; 
+    align-items: center;
     height: 83px;
     padding: 0 80px;
+    @media (max-width: 431px){
+        padding: 16px 20px;
+    }
 
     .header__logo{
     padding-right: 74px;
@@ -49,6 +53,11 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
+    @media (max-width: 431px){
+        width: 100%;
+        height: auto;
+        background-size: auto;
+    }
 
     .main-section__content{
     display: flex;
@@ -63,6 +72,9 @@
     gap: 24px;
     width: 846px;
     margin-top: 24px;
+    @media (max-width: 431px){
+        width: auto;
+    }
     }
 
     .main-section__links{
@@ -100,12 +112,20 @@
     padding: 0;
     width: 1150px;
     height: 738px;
+    @media (max-width: 431px) {
+        width: 100%;
+        height: auto;
+    }
     }
 
     .main-section__img-desktop{
     width: 957px;
     height: 680px;
     border-radius: 16px;
+    @media (max-width: 431px) {
+        width: 100%;
+        height: auto;
+    }
     }
 
     .main-section__img-mobile{
@@ -115,6 +135,10 @@
     top: 152px;
     left: 879px;
     border-radius: 16px;
+    @media (max-width: 431px) {
+        width: 100%;
+        height: auto;
+    }
     }
 
     .main-section__logos{
@@ -124,6 +148,10 @@
     gap: 97px;
     margin-top: 64px;
     margin-bottom: 80px;
+    @media (max-width: 431px){
+        display: flex;
+        flex-wrap: wrap;
+    }
     }
 
     .companies{
@@ -134,11 +162,17 @@
     }
 }
 
+.features{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 120px 80px 120px 80px;
+}
+
 .feature{
     display: flex;
     gap: 24px;
     padding: 0;
-    margin-top: 120px;
     justify-content: center;
 
     .feature__item{
@@ -184,7 +218,6 @@
     display: flex;
     gap: 24px;
     padding: 0;
-    margin-top: 120px;
     justify-content: center;
 
     .feature-2__item{
@@ -224,52 +257,6 @@
     font-size: 18px;
     font-weight: 500;
     }
-}
-
-.feature-3{
-    display: flex;
-    gap: 24px;
-    padding: 0;
-    margin: 120px 0 120px 0;
-    justify-content: center;
-    
-    .feature-3__item{
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    height: 620px;
-    padding: 56px 56px 0 0;
-    box-sizing: border-box;
-    }
-
-    .feature-3__heading{
-    display: flex;
-    gap: 16px;
-    flex-direction: column;
-    width: 572px;
-    }
-
-    .feature-3__list{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    list-style: none;
-    }
-
-    .feature-3__button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-    border: none;
-    background-color: transparent;
-    color: #EB2891;
-    width: 138px;
-    height: 76px;
-    padding: 0;
-    font-size: 18px;
-    font-weight: 500;
-}   
 }
 
 .testimonials{

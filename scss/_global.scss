@@ -9,7 +9,6 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
     font-family: "MyFont", sans-serif;
 }
 
-
 .main-section{
 
     .main-section__title{
@@ -81,33 +80,6 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
     display: flex;
     gap: 16px;
     }    
-}
-
-.feature-3{
-
-    .feature-3__title{
-    font-size: 18px;
-    font-weight: 500;
-    color: #EB2891;
-    }
-
-    .feature-3__paragraph{
-    font-size: 42px;
-    font-weight: 500;
-    color: #172026;
-    }
-
-    .feature-3__paragraph-second{
-    font-size: 18px;
-    font-weight: 400;
-    }
-
-    .feature-3__list-item{
-    font-size: 18px;
-    font-weight: 400;
-    display: flex;
-    gap: 16px;
-    }
 }
 
 .testimonials{

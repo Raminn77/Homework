@@ -8,8 +8,7 @@
 .testimonials__paragraph,
 .header__nav-link,
 .faq__paragraph-second,
-.plans__paragraph,
-.feature-3__paragraph-second {
+.plans__paragraph {
   color: #36485C;
 }
 
@@ -81,27 +80,6 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   gap: 16px;
 }
 
-.feature-3 .feature-3__title {
-  font-size: 18px;
-  font-weight: 500;
-  color: #EB2891;
-}
-.feature-3 .feature-3__paragraph {
-  font-size: 42px;
-  font-weight: 500;
-  color: #172026;
-}
-.feature-3 .feature-3__paragraph-second {
-  font-size: 18px;
-  font-weight: 400;
-}
-.feature-3 .feature-3__list-item {
-  font-size: 18px;
-  font-weight: 400;
-  display: flex;
-  gap: 16px;
-}
-
 .testimonials .testimonials__text {
   font-size: 42px;
   font-weight: 500;
@@ -135,11 +113,24 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   line-height: 26px;
 }
 
+@media (max-width: 431px) {
+  .header__nav {
+    display: none;
+  }
+  .main-section__texts {
+    width: 412px;
+  }
+}
 .header-section {
   display: flex;
   align-items: center;
   height: 83px;
   padding: 0 80px;
+}
+@media (max-width: 431px) {
+  .header-section {
+    padding: 16px 20px;
+  }
 }
 .header-section .header__logo {
   padding-right: 74px;
@@ -178,6 +169,13 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   background-repeat: no-repeat;
   background-position: bottom;
 }
+@media (max-width: 431px) {
+  .main-section {
+    width: 100%;
+    height: auto;
+    background-size: auto;
+  }
+}
 .main-section .main-section__content {
   display: flex;
   flex-direction: column;
@@ -190,6 +188,11 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   gap: 24px;
   width: 846px;
   margin-top: 24px;
+}
+@media (max-width: 431px) {
+  .main-section .main-section__texts {
+    width: auto;
+  }
 }
 .main-section .main-section__links {
   display: flex;
@@ -224,10 +227,22 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   width: 1150px;
   height: 738px;
 }
+@media (max-width: 431px) {
+  .main-section .main-section__images {
+    width: 100%;
+    height: auto;
+  }
+}
 .main-section .main-section__img-desktop {
   width: 957px;
   height: 680px;
   border-radius: 16px;
+}
+@media (max-width: 431px) {
+  .main-section .main-section__img-desktop {
+    width: 100%;
+    height: auto;
+  }
 }
 .main-section .main-section__img-mobile {
   width: 271px;
@@ -237,6 +252,12 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   left: 879px;
   border-radius: 16px;
 }
+@media (max-width: 431px) {
+  .main-section .main-section__img-mobile {
+    width: 100%;
+    height: auto;
+  }
+}
 .main-section .main-section__logos {
   display: flex;
   align-items: center;
@@ -245,6 +266,12 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   margin-top: 64px;
   margin-bottom: 80px;
 }
+@media (max-width: 431px) {
+  .main-section .main-section__logos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 .main-section .companies {
   font-size: 18px;
   font-weight: 400;
@@ -252,11 +279,17 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   font-family: "Inter", sans-serif;
 }
 
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 120px 80px 120px 80px;
+}
+
 .feature {
   display: flex;
   gap: 24px;
   padding: 0;
-  margin-top: 120px;
   justify-content: center;
 }
 .feature .feature__item {
@@ -298,7 +331,6 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   display: flex;
   gap: 24px;
   padding: 0;
-  margin-top: 120px;
   justify-content: center;
 }
 .feature-2 .feature-2__item {
@@ -329,48 +361,6 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
   border: none;
   background-color: transparent;
   color: #00A424;
-  width: 138px;
-  height: 76px;
-  padding: 0;
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.feature-3 {
-  display: flex;
-  gap: 24px;
-  padding: 0;
-  margin: 120px 0 120px 0;
-  justify-content: center;
-}
-.feature-3 .feature-3__item {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  height: 620px;
-  padding: 56px 56px 0 0;
-  box-sizing: border-box;
-}
-.feature-3 .feature-3__heading {
-  display: flex;
-  gap: 16px;
-  flex-direction: column;
-  width: 572px;
-}
-.feature-3 .feature-3__list {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  list-style: none;
-}
-.feature-3 .feature-3__button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  border: none;
-  background-color: transparent;
-  color: #EB2891;
   width: 138px;
   height: 76px;
   padding: 0;
